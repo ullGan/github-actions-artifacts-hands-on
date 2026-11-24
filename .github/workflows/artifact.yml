@@ -30,5 +30,6 @@ jobs:
           path: ./artifacts
       
       - name: display content
-        run: ls ./artifacts
-        run: cat ./artifacts/hello-artifact
+        run: |
+          ls ./artifacts
+          cat ./artifacts/hello-artifact
