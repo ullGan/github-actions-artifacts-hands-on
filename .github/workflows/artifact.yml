@@ -32,4 +32,4 @@ jobs:
       - name: display content
         run: |
           ls ./artifacts
-          cat ./artifacts/hello-artifact
+          cat ./artifacts/hello.txt
